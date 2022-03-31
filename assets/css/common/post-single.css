@@ -4,7 +4,7 @@
 }
 
 .post-title {
-    margin-bottom: 2px;
+    margin-bottom: 8px;
     font-size: 40px;
 }
 
@@ -258,7 +258,7 @@
 }
 
 .toc {
-    margin: 0 2px 40px 2px;
+    margin: 0 2px 4px 2px;
     border: 1px solid var(--border);
     background: var(--code-bg);
     border-radius: var(--radius);

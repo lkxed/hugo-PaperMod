@@ -5,7 +5,7 @@
 
 .post-title {
     margin-bottom: 8px;
-    font-size: 40px;
+    font-size: 32px;
 }
 
 .post-description {
@@ -34,7 +34,9 @@
 
 .post-content {
     color: var(--content);
-    /* font-size: 18px; */
+    font-size: 17px;
+    letter-spacing: 1.75px;
+    line-height: 1.75;
 }
 
 .post-content h2,
@@ -198,6 +200,7 @@
     padding: 4px 6px;
     font-size: 0.78em;
     line-height: 1.5;
+    letter-spacing: normal;
     background: var(--code-bg);
     border-radius: 2px;
 }
@@ -217,6 +220,7 @@
     margin: 20px 0;
     padding: 0 14px;
     border-inline-start: 3px solid var(--primary);
+    font-size: 15px;
 }
 
 .post-content hr {

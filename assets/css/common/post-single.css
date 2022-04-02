@@ -269,8 +269,10 @@
     padding: 0.4em;
 }
 
-.dark .toc {
-    background: var(--entry);
+@media (prefers-color-scheme: dark) {
+    .toc {
+        background: var(--entry);
+    }
 }
 
 .toc details summary {

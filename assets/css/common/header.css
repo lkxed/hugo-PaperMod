@@ -45,13 +45,17 @@ button#theme-toggle {
     margin: auto 4px;
 }
 
-body.dark #moon {
-    vertical-align: middle;
-    display: none;
+@media (prefers-color-scheme: dark) {
+    body #moon {
+        vertical-align: middle;
+        display: none;
+    }
 }
 
-body:not(.dark) #sun {
-    display: none;
+@media (prefers-color-scheme: light) {
+    body #sun {
+        display: none;
+    }
 }
 
 #menu {

@@ -17,6 +17,10 @@
     --border: rgb(238, 238, 238);
 }
 
+.list {
+    background: var(--code-bg);
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         --theme: rgb(29, 30, 32);
@@ -29,13 +33,7 @@
         --code-bg: rgb(55, 56, 62);
         --border: rgb(51, 51, 51);
     }
-}
-
-.list {
-    background: var(--code-bg);
-}
-
-@media (prefers-color-scheme: dark) {
+    
     .list {
         background: var(--theme);
     }

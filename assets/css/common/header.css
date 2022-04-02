@@ -36,19 +36,6 @@
     margin-inline-end: 8px;
 }
 
-@media (prefers-color-scheme: dark) {
-    body #moon {
-        vertical-align: middle;
-        display: none;
-    }
-}
-
-@media (prefers-color-scheme: light) {
-    body #sun {
-        display: none;
-    }
-}
-
 #menu {
     list-style: none;
     word-break: keep-all;

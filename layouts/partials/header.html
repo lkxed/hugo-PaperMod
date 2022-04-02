@@ -3,7 +3,7 @@
 {{- /* theme is light */}}
 {{- if (eq site.Params.defaultTheme "light") }}
 <script>
-    if (session.getItem("pref-theme") === "dark") {
+    if (sessionStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
     }
 

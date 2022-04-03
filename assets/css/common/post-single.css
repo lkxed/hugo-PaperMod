@@ -32,8 +32,11 @@
     font-size: 16px;
 }
 
-.post-content > p {
+.post-content {
     color: var(--content);
+}
+
+.post-content > p {
     font-size: 16px;
     letter-spacing: 1.5px;
     line-height: 28px;

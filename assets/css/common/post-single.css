@@ -34,9 +34,17 @@
 
 .post-content {
     color: var(--content);
-    font-size: 17px;
-    letter-spacing: 1.75px;
-    line-height: 1.75;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    line-height: 28px;
+}
+
+@media screen and (max-width: 768px) {
+    .post-content {
+        font-size: 17px;
+        letter-spacing: 1.75px;
+        line-height: 30px;
+    }
 }
 
 .post-content h2,

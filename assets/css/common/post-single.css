@@ -32,7 +32,7 @@
     font-size: 16px;
 }
 
-.post-content {
+.post-content p {
     color: var(--content);
     font-size: 16px;
     letter-spacing: 1.5px;
@@ -40,7 +40,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .post-content {
+    .post-content p {
         font-size: 17px;
         letter-spacing: 1.75px;
         line-height: 30px;

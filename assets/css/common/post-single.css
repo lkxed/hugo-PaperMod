@@ -151,14 +151,9 @@
     line-height: 1.5;
     border-bottom: 1px solid var(--border);
 }
-
-.post-content table th {
-    font-size: 14px;
-    text-align: start;
-}
-
+.post-content table th,
 .post-content table td {
-    font-size: 15px;
+    font-size: 14px;
     text-align: start;
 }
 

@@ -36,13 +36,13 @@
     color: var(--content);
 }
 
-.post-content > p {
+.post-content:not(blockquote, table > *) {
     font-size: 16px;
     line-height: 30px;
 }
 
 @media screen and (max-width: 768px) {
-    .post-content > p {
+    .post-content:not(blockquote, table > *) {
         font-size: 17px;
         letter-spacing: 1.75px;
     }

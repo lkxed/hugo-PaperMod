@@ -36,13 +36,13 @@
     color: var(--content);
 }
 
-.post-content:not(blockquote):not(table > *) {
+.post-content:not(blockquote) {
     font-size: 16px;
     line-height: 30px;
 }
 
 @media screen and (max-width: 768px) {
-    .post-content:not(blockquote):not(table > *) {
+    .post-content:not(blockquote) {
         font-size: 17px;
         letter-spacing: 1.75px;
     }
@@ -154,6 +154,11 @@
 
 .post-content table th {
     font-size: 14px;
+    text-align: start;
+}
+
+.post-content table td {
+    font-size: 15px;
     text-align: start;
 }
 

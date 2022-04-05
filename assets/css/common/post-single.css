@@ -36,7 +36,7 @@
     color: var(--content);
 }
 
-.post-content:not(blockquote) {
+.post-content:not(blockquote, table) {
     font-size: 16px;
     line-height: 30px;
 }
